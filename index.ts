@@ -10,7 +10,7 @@ const Division = "Division";
 
 const sleep = () => {
   return new Promise((res) => {
-    setTimeout(res, 2000);
+    setTimeout(res, 1000);
   });
 };
 
@@ -100,7 +100,7 @@ const promptAgainAndShowCalculator = async () => {
 
       setTimeout(() => {
         endingAnimation.stop();
-      }, 2000);
+      }, 1000);
     }
   } while (
     shouldCalculatorShowAgain.shouldCalculatorShowAgain.toLowerCase() === "y"
