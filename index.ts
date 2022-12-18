@@ -15,7 +15,7 @@ const sleep = () => {
 };
 
 const welcome = async () => {
-  const animation = chalkAnimation.rainbow("Hi Welcome To My calculator");
+  const animation = chalkAnimation.rainbow("Hi welcome to my calculator");
   await sleep();
   animation.stop();
 };
