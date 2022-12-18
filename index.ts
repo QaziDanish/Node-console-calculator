@@ -26,7 +26,7 @@ const showCalculatorLogic = async () => {
       type: "list",
       name: "operator",
       message:
-        "Which operations you want to perform on this calculator ? please chose from below options \n",
+        "Which operations you want to perform on this calculator ? please chose from options below \n",
       choices: [Multiplication, Addition, Subtraction, Division],
     },
     {
